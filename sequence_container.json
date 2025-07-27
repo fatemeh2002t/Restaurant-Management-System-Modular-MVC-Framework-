@@ -1,0 +1,42 @@
+{
+    "view_container": [
+        {
+            "id": 1,
+            "controller": "Enterance_SIGN_Controller",
+            "gui_interface": "GUI_owner_customer_enterance",
+            "terminal_interface": "Terminal_owner_customer_enterance",
+            "module_name": "sign"
+        },
+        {
+            "id": 2,
+            "controller": "owner_choice_controller",
+            "gui_interface": "gui_owner_menu",
+            "terminal_interface": "terminal_owner_menu",
+            "module_name": "owner"
+        },
+        {
+            "id": 3,
+            "controller": "customer_controller",
+            "gui_interface": "gui_get_customer_order",
+            "terminal_interface": "terminal_get_customer_oreder",
+            "module_name": "customer"
+        }
+    ],
+    "model_container": [
+        {
+            "id": 1,
+            "model_db": "DATA_BASE_model",
+            "model_json": "JSON_model"
+        },
+        {
+            "id": 2,
+            "model_db": "DB_FoodModel",
+            "model_json": "JSON_FoodModel"
+        },
+        {
+            "id": 3,
+            "model_db": "DB_ProductModel",
+            "model_json": "JSON_ProductModel"
+        }
+    ]
+}
